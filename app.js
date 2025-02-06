@@ -34,6 +34,8 @@
 
 // 2-masala
 
+//reduse masalasi
+
 // 3-masala 
 
 // let number = [1, 2, 3, 4, 5]
@@ -48,6 +50,8 @@
 // console.log(restnumber)
 
 // 4-masala
+
+//reduse masalasi
 
 // 5-masala
 
@@ -94,6 +98,8 @@
 // console.log(rest1, rest2)
 
 // 8-masala
+
+//reduse masalasi
 
 // 9-masala
 
@@ -154,6 +160,7 @@
 
   // 12-masala
 
+  //reduse masalasi
  
   // 13-masala
 
@@ -180,7 +187,14 @@
 
 // 16-masala
 
-// shartga chunmadim
+// function checkIfAlphabetOnly(e) {
+//   return e.split('').every(i => /[a-zA-Z]/);
+// }
+
+//  const satr = 'adadadad';
+ 
+
+// console.log(checkIfAlphabetOnly(satr))
 
 // 17-masala
 // let array = [false, 1, 10, "", null, "abdulaziz", 1.13, 0]
@@ -209,14 +223,22 @@
 
 // 20-masala
 
-// qila olamdim
-
+const object1 = {a: 2, b: 5, c: 7};
+const resul = []
+for (const [key, value] of Object.entries(object1)) {
+  let rest = `${key}${value}`
+  resul.push(rest)
+}
+console.log(resul)
 // 21-masala
 
 // qila olmadim
 
-// 22-23
+// 22-masala
 
+//reduse masalasi
+
+// 23-24-25 masalalar
 
 const pupils = [
   {
@@ -253,7 +275,7 @@ let result = pupils.filter((item) => {
     item.grade= 4
     item.isPssed = true 
     }
-  else if (item.protcent >= 70 && item.protcent < 80 && item.protcent > 75 && item.protcent >= 70){
+  else if (item.protcent >= 70 && item.protcent < 80 && item.protcent > 70 && item.protcent >= 70){
     item.grade = 3
     item.isPssed = true 
    }
